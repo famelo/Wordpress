@@ -1,0 +1,21 @@
+{
+  "variables": [
+    {
+      "name": "project_name",
+      "question": "Please specify a project name",
+      "default": "Bootstrap HTML Project"
+    }
+  ],
+  "replacements": [
+    {
+      "search": "Project name",
+      "replace": "{{project_name}}",
+      "name": "index.html"
+    }
+  ],
+  "postProcessCommands": [
+    {
+      "command": "bower install"
+    }
+  ]
+}

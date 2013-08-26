@@ -1,0 +1,57 @@
+body {
+	background: #efefef;
+}
+
+.container-main {
+	margin: 50px auto 0;
+	max-width: 940px;
+	background: white;
+	padding-top: 30px;
+
+	.header,
+	.content {
+		margin: 0 30px 30px;
+	}
+}
+
+.nav-pills > li > a {
+	.border-radius(0);
+}
+
+.container-app {
+	padding-left: 150px;
+	position: relative;
+
+	.sidebar {
+		margin-left: -150px;
+		width: 150px;
+		background: rgb(37, 42, 58);
+		text-align: center;
+		padding: 2em 0;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		overflow: auto;
+	}
+
+	.content {
+		padding: 30px;
+	}
+}
+
+.sidebar .nav-vertical {
+	margin-left: 10px;
+
+	ul {
+		margin-left: 0;
+	}
+
+	a {
+		font-size: 16px;
+		color: white;
+	}
+
+	a:hover, .current > a {
+		background: rgb(57, 62, 78);
+	}
+}
