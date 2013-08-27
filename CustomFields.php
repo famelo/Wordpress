@@ -28,6 +28,127 @@
 	if(function_exists("register_field_group"))
 	{
 		register_field_group(array(
+		'id' => 'acf_einstellungen',
+		'title' => 'Einstellungen',
+		'fields' => 
+		array(
+			0 => 
+			array(
+				'key' => 'field_521c649c18d55',
+				'label' => 'Firmenname',
+				'name' => 'company',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			1 => 
+			array(
+				'key' => 'field_521c660552b34',
+				'label' => 'Kontaktperson',
+				'name' => 'contactperson',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			2 => 
+			array(
+				'key' => 'field_521c65b547487',
+				'label' => 'Straße',
+				'name' => 'street',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			3 => 
+			array(
+				'key' => 'field_521c65c547488',
+				'label' => 'PLZ',
+				'name' => 'zip',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			4 => 
+			array(
+				'key' => 'field_521c65cd47489',
+				'label' => 'Stadt',
+				'name' => 'city',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			5 => 
+			array(
+				'key' => 'field_521c65d44748a',
+				'label' => 'Telefonnummer',
+				'name' => 'phone',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			6 => 
+			array(
+				'key' => 'field_521c65ff52b33',
+				'label' => 'E-Mail',
+				'name' => 'email',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+		),
+		'location' => 
+		array(
+			0 => 
+			array(
+				0 => 
+				array(
+					'param' => 'options_page',
+					'operator' => '==',
+					'value' => 'acf-options',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => 
+		array(
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => 
+			array(
+			),
+		),
+		'menu_order' => 0,
+	)); 
+		register_field_group(array(
 		'id' => 'acf_flexible-content',
 		'title' => 'Flexible Content',
 		'fields' => 
