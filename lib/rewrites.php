@@ -39,12 +39,12 @@ if (!is_multisite() && !is_child_theme()) {
 
   if (!is_admin() && current_theme_supports('rewrites')) {
     $tags = array(
-      'plugins_url',
-      'bloginfo',
-      'stylesheet_directory_uri',
-      'template_directory_uri',
-      'script_loader_src',
-      'style_loader_src'
+      // 'plugins_url',
+      // 'bloginfo',
+      // 'stylesheet_directory_uri',
+      // 'template_directory_uri',
+      // 'script_loader_src',
+      // 'style_loader_src'
     );
 
     add_filters($tags, 'roots_clean_urls');
