@@ -5,5 +5,11 @@
       "question": "Please specify a project name",
       "default": "Wordpress Project"
     }
-  ]
+  ],
+  "submodules": [
+    {
+      "module": "famelo/Bootstrap",
+      "path": "assets/"
+    }
+   ]
 }
