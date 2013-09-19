@@ -48,7 +48,7 @@
 			1 => 
 			array(
 				'key' => 'field_521c660552b34',
-				'label' => 'Kontaktperson',
+				'label' => 'Inhaber',
 				'name' => 'contactperson',
 				'type' => 'text',
 				'default_value' => '',
@@ -112,9 +112,48 @@
 			),
 			6 => 
 			array(
+				'key' => 'field_523a15ea6209d',
+				'label' => 'Fax',
+				'name' => 'fax',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			7 => 
+			array(
 				'key' => 'field_521c65ff52b33',
 				'label' => 'E-Mail',
 				'name' => 'email',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			8 => 
+			array(
+				'key' => 'field_523abbf643bc8',
+				'label' => 'Amtsgericht',
+				'name' => 'amtsgericht',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			9 => 
+			array(
+				'key' => 'field_523abc2043bc9',
+				'label' => 'Umsatzsteuer-Identifikationsnummer',
+				'name' => 'ustid',
 				'type' => 'text',
 				'default_value' => '',
 				'placeholder' => '',
