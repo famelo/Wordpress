@@ -1,6 +1,7 @@
 <?php
 /*
 Template Name: Flexible Content Template
+Remove Editor: 1
 */
 ?>
 
