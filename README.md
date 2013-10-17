@@ -53,4 +53,4 @@ Make sure you have this in there to put in the content from your template:
 
 ```
 <?php Famelo_Layout::content(); ?>
-``
+```
