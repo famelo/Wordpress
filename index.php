@@ -3,6 +3,7 @@
  * Layout: Sidebar
  */
 ?>
+<!--index.php-->
 
 <?php if (!have_posts()) : ?>
   <div class="alert">

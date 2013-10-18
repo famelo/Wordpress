@@ -4,6 +4,7 @@
  * Layout: Main
  */
 ?>
+<!--page-sidebar.php-->
 
 <?php while (have_posts()) : the_post(); ?>
   <?php the_content(); ?>
