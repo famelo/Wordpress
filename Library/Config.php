@@ -5,6 +5,15 @@ function famelo_config() {
     'primary_navigation' => __('Primary Navigation', 'roots'),
   ));
 
+  register_sidebar(array(
+    'name'          => __('Primary', 'roots'),
+    'id'            => 'sidebar-primary',
+    'before_widget' => '<section class="widget %1$s %2$s"><div class="widget-inner">',
+    'after_widget'  => '</div></section>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>',
+  ));
+
   // Add post thumbnails (http://codex.wordpress.org/Post_Thumbnails)
   add_theme_support('post-thumbnails');
   // set_post_thumbnail_size(150, 150, false);
