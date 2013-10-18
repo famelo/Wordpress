@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Seite mit Sidebar
- * Layout: Main
+ * Layout: Sidebar
  */
 ?>
 <!--page-sidebar.php-->
