@@ -10,7 +10,7 @@
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 </head>
 <body <?php body_class(); ?>>
-  <?php get_template_part('Templates/Partials/Header'); ?>
+  <?php get_template_part('templates/Partials/Header'); ?>
   <div class="wrap container" role="document">
     <div class="content row">
       <div class="main col-md-8" role="main">
@@ -21,6 +21,6 @@
       </div>
     </div>
   </div>
-  <?php get_template_part('Templates/Partials/Footer'); ?>
+  <?php get_template_part('templates/Partials/Footer'); ?>
 </body>
 </html>

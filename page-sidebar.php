@@ -16,7 +16,7 @@ while (the_flexible_field('content')) {
 	$layout = get_row_layout();
 	$layout = ucfirst(str_replace('/', '_', $layout));
 	$template = 'Partials/' . $layout;
-	$templatePath = __DIR__ . '/Templates/' . $template . '.php';
+	$templatePath = __DIR__ . '/templates/' . $template . '.php';
 
 	if (!file_exists($templatePath)) {
 		file_put_contents($templatePath, '<strong>New empty Layout: ' . $template . '.php</strong>');

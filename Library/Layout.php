@@ -8,7 +8,7 @@
 class Famelo_Layout {
   static $layoutName = 'Main';
   static $templatePath;
-  static $layoutPath = 'Templates/Layouts/';
+  static $layoutPath = 'templates/Layouts/';
 
   static function content() {
     include self::$templatePath;
@@ -41,3 +41,8 @@ class Famelo_Layout {
   }
 }
 add_filter('template_include', array('Famelo_Layout', 'apply'), 99);
+
+
+function get_partial($name, $context = array()) {
+  return get_template_part('templates/Partials/' . $name);
+}
