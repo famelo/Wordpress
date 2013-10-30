@@ -4,9 +4,12 @@
 
 ```
 Assets                        // Contains all css, js, images, fonts, etc
-  - Media/*
+  - Media/*                   // Media files like images, etc
   - Components/*
-  - Styles/Main.less
+  - Styles/Base.less          // General Styling mainly focused towards desktop
+  - Styles/Mobile.less        // Special styling for mobile devices
+  - Styles/Tablet.less        // Special styling for tablet devices
+  - Styles/Main.less          // ties all the other styles together
   - Scripts/Main.js
 
 Library                       // Contains all PHP code to modify WP behavior
