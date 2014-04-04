@@ -23,7 +23,7 @@
   <![endif]-->  
 </head>
 <body <?php body_class(); ?>>
-  <?php get_template_part('templates/Partials/Header'); ?>
+  <?php get_template_part('Templates/Partials/Header'); ?>
   <div class="wrap container" role="document">
     <div class="content row">
       <div class="main" role="main">
@@ -31,6 +31,6 @@
       </div>
     </div>
   </div>
-  <?php get_template_part('templates/Partials/Footer'); ?>
+  <?php get_template_part('Templates/Partials/Footer'); ?>
 </body>
 </html>
